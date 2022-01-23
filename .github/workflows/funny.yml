@@ -3,5 +3,5 @@ on: push
 jobs:
   Test:
     runs-on: ubuntu-latest
-    stesp:
+    steps:
       - run: echo "amogus"
