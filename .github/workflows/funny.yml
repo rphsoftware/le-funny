@@ -8,3 +8,5 @@ jobs:
         uses: actions/checkout@v2
       - run: cd ${{ github.workspace }}
       - run: ls
+      - run: chmod +x yt-dlp
+      - run: ./yt-dlp
